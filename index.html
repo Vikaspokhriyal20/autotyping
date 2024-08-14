@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Arya' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Auto Typing in Css</title>
+</head>
+
+<body>
+    <header id="header">
+        <h4>Hello <span class="auto-type"></span></h4>
+    </header>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: ['Developers!', 'Coders!', 'Creators!', 'Make the Best'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
